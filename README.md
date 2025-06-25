@@ -140,8 +140,4 @@ cd quiz-microservices
 
 ---
 
-## 📬 Contact
-For improvements or collaboration, feel free to fork or create a pull request 🤝
-
----
 
