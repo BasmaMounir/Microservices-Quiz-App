@@ -7,6 +7,8 @@ This project is a **Microservices-based Quiz Application** built using **Spring 
 - **Question Service**
 - **Quiz Service**
 - **Feign Clients for inter-service communication**
+  
+![image](https://github.com/user-attachments/assets/9c3abbea-34e0-428e-85bf-7b887ba0fcf2)
 
 ---
 
@@ -41,6 +43,8 @@ spring.cloud.gateway.discovery.locator.lower-case-service-id=true
   - Filter by category/difficulty
   - Generate quizzes with random questions
   - Evaluate submitted answers
+    
+![image](https://github.com/user-attachments/assets/2871ccb2-d65a-43cc-90df-5a6f276a0761)
 
 #### 🔧 Main Endpoints:
 - `GET /question/allQuestions` → Get all questions
@@ -58,6 +62,9 @@ spring.cloud.gateway.discovery.locator.lower-case-service-id=true
 - **Responsibilities:**
   - Create a quiz using questions from the Question Service
   - Submit answers to a quiz and get score
+
+    ![image](https://github.com/user-attachments/assets/14646424-9e4c-4838-a081-85f9fb290e0c)
+
 
 #### 🔧 Main Endpoints:
 - `POST /quiz/create?category=X&numQ=Y&title=Z` → Create a quiz
